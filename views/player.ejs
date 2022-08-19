@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Player</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="player-style.css">
+</head>
+
+<body>
+    <% const DNS=locals.DNS %>
+        <script>
+            const getDNS = "<%= DNS %>"
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"
+            integrity="sha512-4P0ZJ49OMXe3jXT+EsEaq82eNwFeyYL81LeHGzGcEhowFbTqeQ80q+NEkgsE8tHPs6aCqvi7U+XWliAjDmT5Lg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="player-sketch.js" async defer></script>
+</body>
+
+</html>
